@@ -4,6 +4,7 @@
   "summary": "GitHub Actions workflow",
   "sections": [{
       "activityTitle": "GitHub Actions",
+      "acitivityImage": "https://www.bing.com/images/search?view=detailV2&ccid=kOjQUkLN&id=D3D7D3B815CD48E93D9AA5204FBD8C3F7B86745D&thid=OIP.kOjQUkLNo_8Cmo69GfbZ9gHaHa&mediaurl=https%3a%2f%2fwww.blendswap.com%2fblend_previews%2f11748%2f0%2f0%3fu%3d2019-07-12+07%3a30%3a18&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.90e8d05242cda3ff029a8ebd19f6d9f6%3frik%3dXXSGez%252bMvU8gpQ%26pid%3dImgRaw%26r%3d0&exph=1024&expw=1024&q=octocat&simid=608031279448541227&FORM=IRPRST&ck=A89386D513A685E920A4EEC35CCCE741&selectedIndex=0&itb=0",
       "text": "TEST MESSAGE"
   }],
   "potentialAction": [
