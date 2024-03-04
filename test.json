@@ -1,10 +1,8 @@
 {
   "@type": "MessageCard",
   "@context": "http://schema.org/extensions",
-  "summary": "Example summary",
   "sections": [{
-      "activityTitle": "Activity title",
-      "activitySubtitle": "Activity subtitle",
-      "text": "This is the message text"
+      "activityTitle": "GitHub Actions",
+      "text": "TEST MESSAGE"
   }]
 }
