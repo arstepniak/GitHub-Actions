@@ -8,4 +8,4 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v4.1.1
             - name: Search JSON
-              run: grep hula test.json
+              run: grep -r 'hula' .
