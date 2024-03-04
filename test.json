@@ -1,6 +1,7 @@
 {
   "@type": "MessageCard",
   "@context": "http://schema.org/extensions",
+  "summary": "GitHub Actions workflow"
   "sections": [{
       "activityTitle": "GitHub Actions",
       "text": "TEST MESSAGE"
