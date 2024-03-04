@@ -7,5 +7,7 @@ jobs:
         steps:
             - name: Checkout
               uses: actions/checkout@v4.1.1
-            - name: Run tests
-              run: ls | dir
+            - name: Change to root dir
+              run: cd /
+            - name: Print folders
+              run: ls
