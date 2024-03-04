@@ -11,4 +11,4 @@ jobs:
               env:
                   WEBHOOK_URL: ${{ vars.WEBHOOK_URL }}
               run: |
-                echo $WEBHOOK_URL
+                curl -H "Content-Type: application/json" -d @test.json $WEBHOOK_URL
