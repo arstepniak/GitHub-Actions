@@ -5,5 +5,26 @@
   "sections": [{
       "activityTitle": "GitHub Actions",
       "text": "TEST MESSAGE"
-  }]
+  }],
+  "potentialAction": [
+    {
+      "@type": "ActionCard",
+      "name": "Action's name",
+      "inputs": [
+        {
+          "@type": "TextInput",
+          "id": "comment",
+          "isMultiline": false,
+          "title": "Input's title"
+        }
+      ],
+      "actions": [
+        {
+          "@type": "HttpPOST",
+          "name": "Save",
+          "target": "https://example.com/api/save"
+        }
+      ]
+    }
+  ]
 }
