@@ -1,6 +1,6 @@
 name: test-workflow
 on:
-    push
+    workflow_dispatch
 jobs:
     test1:
         runs-on: ubuntu-latest
@@ -16,4 +16,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Hello
+              if: github.event_name == 'push'
               run: echo "Hello"
