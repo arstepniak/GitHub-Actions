@@ -6,15 +6,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
-              uses: actions/checkout@v2
+              uses: actions/checkout@4.0.0
             - name: Run tests
-              run: |
-                echo "Running tests"
-                echo "Tests passed"
-
-    test2:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Hello
-              if: github.event_name == 'push'
-              run: echo "Hello"
+              run: ls | dir
