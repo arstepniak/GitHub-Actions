@@ -1,6 +1,6 @@
 name: test-workflow
 on:
-    workflow_dispatch
+    [workflow_dispatch, push]
 jobs:
     test1:
         runs-on: ubuntu-latest
