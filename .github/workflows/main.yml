@@ -1,13 +1,11 @@
 name: test-workflow
 on:
-    [workflow_dispatch, push]
+    [workflow_dispatch]
 jobs:
     test1:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
               uses: actions/checkout@v4.1.1
-            - name: Change to root dir
-              run: cd /
-            - name: Print folders
-              run: ls
+            - name: Search JSON
+              run: grep hula test.json
