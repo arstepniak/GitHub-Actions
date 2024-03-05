@@ -15,7 +15,7 @@ jobs:
             - name: Install Dependencies
               run: pip install -r requirements.txt
             - name: Run Server
-              run: py main.py
+              run: python main.py
     test:
         runs-on: ubuntu-latest
         steps:
