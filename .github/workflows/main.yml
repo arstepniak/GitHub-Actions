@@ -12,7 +12,8 @@ jobs:
                   WEBHOOK_URL: ${{ vars.WEBHOOK_URL }}
               run: |
                 curl -H "Content-Type: application/json" -d @test.json $WEBHOOK_URL
-                        - name: Setup Python
             - name: Setup Python
               uses: actions/setup-python@v5.0.0
+            - name: Install Dependencies
+              run: pip install -r requirements.txt
             
