@@ -17,6 +17,7 @@ jobs:
             - name: Run Server
               run: python main.py
     test:
+        needs: build
         runs-on: ubuntu-latest
         steps:
             - name: Send a request
